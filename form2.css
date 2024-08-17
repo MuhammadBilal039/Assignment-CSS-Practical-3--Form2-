@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #5ba7e1, #da38e9);
+  background-size: cover;
+  font-family: "Gilroy";
+}
+
+form {
+  width: 25%;
+  height: 90vh;
+  background-color: white;
+  margin: 30px auto;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.fn {
+  padding-left: 20px;
+  padding-bottom: 5px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.pass {
+  background: url("./icons8-lock-30.png");
+  background-repeat: no-repeat;
+  background-size: 15px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  text-align: end;
+}
+
+.paragraph {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.paragraph a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 9px 0;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(to left, #da38e9, #5ba7e1);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: grey;
+}
+
+.form-input {
+  position: relative;
+}
+
+.form-input i {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  font-size: 13px;
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.links img {
+  width: 40px;
+}
+
+p.para {
+  margin-top: 30px;
+}
+
+.para1 {
+  margin-top: 10px;
+}
+
+.para1 a {
+  text-decoration: none;
+}
+
+.para1 a:hover {
+  text-decoration: underline;
+}
